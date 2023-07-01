@@ -14,7 +14,7 @@ function App() {
     <div className="quantity">
       <button onClick={()=>dispatch(decNumber(1))} className="btn btn-danger"><span>-</span></button>
       <input type="text" className="input mt-3" value={myState} />
-     <button onClick={()=>dispatch(incNumber(4))} className="btn btn-danger"><span>+</span></button>
+     <button onClick={()=>dispatch(incNumber(2))} className="btn btn-danger"><span>+</span></button>
     </div>
   </div>
   </>
